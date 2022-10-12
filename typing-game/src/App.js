@@ -14,8 +14,8 @@ function App() {
   const calculateWordCount=(text)=>{
     const wordsArr = text.trim().split(" ")
     return wordsArr.filter(word => word !== "").length
-    
   }
+    
  
   useEffect(()=>{
     if(timeRemaining&&isTimeRunning>0){
@@ -46,7 +46,7 @@ function App() {
         <textarea 
           onChange={handleChange}
           value={text}
-        disabled={!timeRemaining}/>
+          disabled={!timeRemaining}/>
         <h4>Time remaining:{timeRemaining}</h4>
         <button disabled={isTimeRunning} onClick={startGame}>Start</button>
         <h1>Word count:{wordCount}</h1>
