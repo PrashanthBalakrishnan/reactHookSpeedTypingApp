@@ -1,6 +1,6 @@
 import { useEffect,useState,useRef } from "react";
 
-const useWordGame = (startTime=5) =>{
+const useWordGame = (startTime = 5) =>{
 
     const[text,setText] = useState("")
     const[timeRemaining,setTimeRemaining] = useState(startTime)

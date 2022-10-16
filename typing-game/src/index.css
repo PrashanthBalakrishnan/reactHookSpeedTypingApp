@@ -1,7 +1,8 @@
-html, body {
+html,
+body {
   background: black;
-  color: #00b800;
-  margin:0;
+  color: hsl(118, 98%, 33%);
+  margin: 0;
   padding: 0;
   padding-top: 10px;
   font-family: 'Press Start 2P', cursive;
@@ -17,7 +18,7 @@ button {
   display: block;
   margin: 0 auto;
   border: none;
-  background: #a80020;
+  background: #31080f;
   background: #00b800;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -25,7 +26,7 @@ button {
 
 h1 {
   font-size: 20px;
-  text-align:center;
+  text-align: center;
 }
 
 textarea {
@@ -43,5 +44,5 @@ button:disabled {
   cursor: not-allowed;
 }
 textarea:disabled {
-  background-color:  #525252;
+  background-color: #525252;
 }
